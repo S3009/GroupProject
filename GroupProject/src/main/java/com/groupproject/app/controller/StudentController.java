@@ -10,7 +10,7 @@ import com.groupproject.app.model.Student;
 import com.groupproject.app.service.StudentService;
 
 @RestController 
-public class StudentController {
+public class StudentController { 
   
 	@Autowired 
 	StudentService service;

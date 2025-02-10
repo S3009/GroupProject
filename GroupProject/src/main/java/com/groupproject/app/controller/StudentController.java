@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.groupproject.app.model.Student;
 import com.groupproject.app.service.StudentService;
 
-@RestController
+@RestController 
 public class StudentController {
   
 	@Autowired 

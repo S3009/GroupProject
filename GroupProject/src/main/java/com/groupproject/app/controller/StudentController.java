@@ -12,7 +12,7 @@ import com.groupproject.app.service.StudentService;
 @RestController
 public class StudentController {
   
-	@Autowired
+	@Autowired 
 	StudentService service;
 	
 	@PutMapping("/updateStudent")
